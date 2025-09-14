@@ -11,4 +11,11 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
+    <script type="module">
+        import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+        Chatbot.init({
+            chatflowid: "5e6cd439-cf27-4573-881d-df723aa0ffb0",
+            apiHost: "https://flowise-trainnig-fittmess-ai-assistance.onrender.com",
+        })
+    </script>
 </html>
